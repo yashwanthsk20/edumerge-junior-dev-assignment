@@ -1,0 +1,36 @@
+.heading { font-size: 20px; font-weight: 800; color: var(--primary); }
+
+.intakeInfo {
+  background: #e3f2fd;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.quotaGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.quotaCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  text-align: center;
+}
+.quotaName { font-weight: 700; font-size: 13px; color: var(--primary); margin-bottom: 10px; }
+
+/* Stats display */
+.quotaStats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.quotaStat {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+}
+.quotaStatName { font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.quotaStatNums { font-size: 22px; font-weight: 800; color: var(--primary); display: flex; justify-content: center; gap: 4px; align-items: baseline; margin-bottom: 10px; }
+
+.progressBar { height: 8px; background: #e0e0e0; border-radius: 4px; overflow: hidden; margin-bottom: 10px; }
+.progressFill { height: 100%; border-radius: 4px; transition: width 0.4s ease; }
+
+.quotaRemain { display: flex; justify-content: center; }

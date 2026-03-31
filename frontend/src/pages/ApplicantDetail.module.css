@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.heading { font-size: 20px; font-weight: 800; color: var(--primary); }
+.sub { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+.admissionBadge {
+  margin-left: auto;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  padding: 10px 16px;
+  text-align: center;
+}
+.admLabel { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: #2e7d32; font-weight: 700; }
+.admNo { font-size: 14px; font-weight: 800; font-family: monospace; color: #1b5e20; margin-top: 2px; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.infoTable { width: 100%; border-collapse: collapse; font-size: 13px; }
+.infoTable td { padding: 7px 4px; border-bottom: 1px solid var(--border); }
+.infoTable td:first-child { color: var(--text-muted); font-weight: 600; width: 140px; font-size: 12px; }
+
+.actions { display: flex; flex-direction: column; gap: 10px; }
+
+.docList { display: flex; flex-direction: column; gap: 12px; }
+.docRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.docRow:last-child { border-bottom: none; }
+.docLabel { flex: 1; font-size: 13px; font-weight: 500; }
