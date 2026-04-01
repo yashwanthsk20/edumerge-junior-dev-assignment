@@ -67,21 +67,10 @@ Make sure you have the following installed:
 
 ## 🛠️ Setup & Installation
 
-<<<<<<< HEAD
-
-
-### 1. Backend Setup
-=======
-### 1. Clone / Download the project
-
-```bash
-cd admission-crm
-```
 
 ---
 
-### 2. Backend Setup
->>>>>>> 5d1cab2 (files update)
+### 1. Backend Setup
 
 ```bash
 cd backend
@@ -91,15 +80,9 @@ npm install
 **Configure environment (`.env` already included):**
 
 ```env
-<<<<<<< HEAD
 PORT=********
 MONGO_URI=********
 JWT_SECRET=********
-=======
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/admission_crm
-JWT_SECRET=edumerge_secret_key_2026
->>>>>>> 5d1cab2 (files update)
 ```
 
 **Start MongoDB** (make sure MongoDB is running locally):
@@ -118,19 +101,13 @@ npm run dev       # Development (nodemon, auto-restart)
 npm start         # Production
 ```
 
-<<<<<<< HEAD
 Server runs at: `http://localhost:5002`
 
 On first start, **2 default users are auto-seeded** into MongoDB.
-=======
-Server runs at: `http://localhost:5000`
-
-On first start, **3 default users are auto-seeded** into MongoDB.
->>>>>>> 5d1cab2 (files update)
 
 ---
 
-### 3. Frontend Setup
+### 2. Frontend Setup
 
 ```bash
 cd ../frontend
@@ -140,13 +117,7 @@ npm start
 
 Frontend runs at: `http://localhost:3000`
 
-<<<<<<< HEAD
-> The `proxy` in `package.json` forwards `/api` calls to `http://localhost:5002` automatically.
-=======
-> The `proxy` in `package.json` forwards `/api` calls to `http://localhost:5000` automatically.
->>>>>>> 5d1cab2 (files update)
 
----
 
 ## 🔐 Default Login Credentials
 
@@ -161,11 +132,7 @@ Frontend runs at: `http://localhost:3000`
 ## 🗂️ Viewing Data in MongoDB Compass
 
 1. Open **MongoDB Compass**
-<<<<<<< HEAD
 2. Connect to: `********`
-=======
-2. Connect to: `mongodb://localhost:27017`
->>>>>>> 5d1cab2 (files update)
 3. Open database: **`admission_crm`**
 4. Collections created automatically:
    - `users` — Login accounts
@@ -261,7 +228,4 @@ All business logic, data flow, quota validation rules, and application architect
 Submitted for: **Edumerge Junior Software Developer Assignment**  
 Email: deepak@edumerge.com  
 Subject: `Assignment for Junior Software Developer`
-<<<<<<< HEAD
->>>>>>> 21f24c8 (Initial commit - Edumerge assignment)
-=======
->>>>>>> 5d1cab2 (files update)
+
